@@ -7,7 +7,7 @@ import cloudImg from './cloudImg.svg';
 function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [cardClicked, setCardClicked] = useState(null);
-  const apiKey = 'a6094a208dab6b0ba317e5783d750c1e';
+  const apiKey = API_KEY;
 
   const handleCardClick = (cardInfo) => {
     setCardClicked(cardInfo);
